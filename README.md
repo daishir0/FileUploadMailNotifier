@@ -41,17 +41,6 @@ $gmail_app_password = 'your_app_password';
 $to_email = 'your_addr@gmail.com';
 ```
 
-## Usage
-1. Start your PHP server (for local environment)
-```bash
-php -S localhost:8000
-```
-
-2. Access the application through your web browser
-3. Select a file using the upload form
-4. Click the upload button
-5. You will receive an email notification when the file is uploaded successfully
-
 ## Notes
 - Make sure to enable "Less secure app access" or generate an App Password in your Gmail account
 - The upload directory (`uploads/`) must be writable by the web server
@@ -105,17 +94,6 @@ $gmail_user = 'your_addr@gmail.com';
 $gmail_app_password = 'your_app_password';
 $to_email = 'your_addr@gmail.com';
 ```
-
-## 使い方
-1. PHPサーバーを起動（ローカル環境の場合）
-```bash
-php -S localhost:8000
-```
-
-2. Webブラウザでアプリケーションにアクセス
-3. アップロードフォームでファイルを選択
-4. アップロードボタンをクリック
-5. ファイルが正常にアップロードされると、メール通知が届きます
 
 ## 注意点
 - Gmailアカウントで「安全性の低いアプリのアクセス」を有効にするか、アプリパスワードを生成する必要があります
